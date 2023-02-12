@@ -1,15 +1,22 @@
-
 /*This is a comment in CSS*/
 
 body{
     font-family: Verdana, sans-serif;
-    margin: 0;
+    margin-top: 0%;
+    background-size: 20%;
+    background-image: url(../assets/images/back.jpg); /*change the image to one of you choice */
+     background-repeat: repeat-x-y; 
 }
 
 h1{
     font-size: 30px;
-    
+    color: rgb(4, 255, 12);
 }
+
+h3{
+    color: rgb(4, 255, 12);
+}
+
 
 p{
     font-size: 16px;
@@ -65,8 +72,18 @@ footer{
     align-items: center;
     text-align: center;
     text-decoration: none;
-    color:#4f4f4f;
-    transition: all 0.2s; /* CSS transitions https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions */
+    color:#37ff37;
+    transition: all 0.5s; /* CSS transitions https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions */
+}
+
+.flex-item a#eps2{
+
+    background-image: url(../assets/images/eps2.jpg);
+}
+
+.flex-item a#clickhand{
+    
+    background-image: url(../assets/images/clickhand.png);
 }
 
 /* want a different background image for each project? */
@@ -78,15 +95,15 @@ footer{
 
 
 .flex-item a:hover{
-    color:#bbbbbb;
+    color:#da1d1d;
     background-size: 120%;
 }
 
-.flex-item h4{
+/* .flex-item h4{
    margin:10px;
    background-color: white;
    padding:5px 10px;
-}
+} */
 
 
 /* Media Queries for responsive design */
@@ -94,7 +111,7 @@ footer{
 /* Un-comment the body background-colors to see bold debug color change between screen sizes */
 
 /* Extra large */
-@media screen and (max-width: 1200px) {
+@media xscreen and (max-width: 1200p) {
     /* body {
       background-color: rgb(0, 255, 162);
     } */
