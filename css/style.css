@@ -86,6 +86,20 @@ footer{
     background-image: url(../assets/images/clickhand.png);
 }
 
+.flex-item a#tonight{
+    
+    background-image: url(../assets/images/tonight\ i\ can\ write.jpg);
+}
+
+.flex-item a#emoji{
+    
+    background-image: url(../assets/images/emojitama.png);
+}
+
+.flex-item a#tank{
+    
+    background-image: url(../assets/images/tank.jpeg);
+}
 /* want a different background image for each project? */
 /* try give each a tag a unique id in your HTML and then set different background images here*/
 /* EXAMPLE CSS: won't work if you just un-comment this:*/
