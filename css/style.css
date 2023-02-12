@@ -2,19 +2,25 @@
 
 body{
     font-family: Verdana, sans-serif;
-    margin-top: 0%;
-    background-size: 20%;
-    background-image: url(../assets/images/back.jpg); /*change the image to one of you choice */
+    margin-top: 5%;
+    background-size: 100%;
+    background-image: url(../assets/images/back.jpeg); /*change the image to one of you choice */
      background-repeat: repeat-x-y; 
 }
 
 h1{
-    font-size: 30px;
-    color: rgb(4, 255, 12);
+    font-size: 40px;
+    
+    color: rgb(4, 255, 171);
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(4, 255, 171);
 }
 
 h3{
-    color: rgb(4, 255, 12);
+    color: rgb(4, 255, 171);
 }
 
 
@@ -72,17 +78,17 @@ footer{
     align-items: center;
     text-align: center;
     text-decoration: none;
-    color:#37ff37;
+    color:rgb(4, 255, 171);
     transition: all 0.5s; /* CSS transitions https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions */
 }
 
 .flex-item a#eps2{
 
     background-image: url(../assets/images/eps2.jpg);
+    
 }
 
 .flex-item a#clickhand{
-    
     background-image: url(../assets/images/clickhand.png);
 }
 
@@ -109,8 +115,8 @@ footer{
 
 
 .flex-item a:hover{
-    color:#da1d1d;
-    background-size: 120%;
+    color:#ab3434;
+    background-size: 150%;
 }
 
 /* .flex-item h4{
