@@ -4,7 +4,7 @@ body{
     font-family: Verdana, sans-serif;
     margin-top: 5%;
     background-size: 100%;
-    background-image: url(../assets/images/back.jpeg); /*change the image to one of you choice */
+    background-image: url(../assets/images/back.jpg); /*change the image to one of you choice */
      background-repeat: repeat-x-y; 
 }
 
@@ -17,9 +17,19 @@ h1{
 h2{
     font-size: 20px;
     color: rgb(4, 255, 171);
+    
+    width: 300px;
+
 }
 
 h3{
+    font-size: 14px;
+    color: rgb(4, 255, 171);
+    text-align: justify;
+
+}
+
+h4{
     color: rgb(4, 255, 171);
 }
 
@@ -86,6 +96,7 @@ footer{
 
     background-image: url(../assets/images/eps2.jpg);
     
+    
 }
 
 .flex-item a#clickhand{
@@ -111,6 +122,38 @@ footer{
     
     background-image: url(../assets/images/paper.jpeg);
 }
+
+.flex-item a#Pushpull{
+    
+    background-image: url(../assets/images/paper.jpeg);
+}
+
+.flex-item a#week6{
+    
+    background-image: url(../assets/images/week6.png);
+}
+
+.flex-item a#week7{
+    
+    background-image: url(../assets/images/paper.jpeg);
+}
+
+.flex-item a#week8{
+    
+    background-image: url(../assets/images/paper.jpeg);
+}
+
+.flex-item a#week9{
+    
+    background-image: url(../assets/images/goodforu.png);
+}
+
+.flex-item a#final{
+    
+    background-image: url(../assets/images/final.png);
+}
+
+
 /* want a different background image for each project? */
 /* try give each a tag a unique id in your HTML and then set different background images here*/
 /* EXAMPLE CSS: won't work if you just un-comment this:*/
@@ -120,7 +163,7 @@ footer{
 
 
 .flex-item a:hover{
-    color:#ab3434;
+    color:#015c3f;
     background-size: 150%;
 }
 
